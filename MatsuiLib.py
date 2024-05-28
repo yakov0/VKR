@@ -6,7 +6,7 @@ def generate_bytes_sequence(length, index):
     byte_sequence2 = byte_sequence1.copy()
     byte_sequence2[index] = byte_sequence1[index] + 1
     return byte_sequence1, byte_sequence2
-#wertyuio
+
 def first_modification(K1, K2, k, d):
     K1[d] = K2[d + 1] = k - d - 1
 
