@@ -1,8 +1,8 @@
 import MatsuiLib as ml
 
-k = 22
+k = 32
 
-d = k - 1
+d = k - 2
 
 K1, K2 = ml.generate_bytes_sequence(k, d)
 print(K1,'\n', K2)

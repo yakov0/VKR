@@ -1,6 +1,6 @@
 import CHMLib as ch
 
-k = 22
+k = 32
 
 d = k - 3
 
